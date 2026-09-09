@@ -1,0 +1,19 @@
+# gitignore pour Wordpress
+# Si vous ajoutez d'autres extensions qui crées des
+# fichiers volumineux, ajoutez les dossiers ici
+# -----
+# Sauvegardes All-in-One WP Migration
+wp-content/ai1wm-backups/
+wp-content/updraft/
+*.wpress
+
+# Contenu généré
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+
+# Système
+.DS_Store
+Thumbs.db
+*.log

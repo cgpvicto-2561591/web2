@@ -1,0 +1,40 @@
+/*
+Theme Name: mcdonald
+Template: hestia
+Author: Dany Mcdonald
+Version: 1.0.0
+*/
+
+body {
+  /* Grosse bordure pour voir si ca marche */
+  /* Attention: il faut aussi ajouter une fonction dans functions.php */
+  /* border: 5px solid red; */
+}
+
+
+/*
+AI footer styler
+*/
+/* Style du footer personnalisé  AI*/
+.mcdonald-footer {
+    background-color: #222;      
+    padding: 10px;              
+    text-align: center;       
+}
+
+.mcdonald-footer p {
+    color: #ffffff;              /* texte blanc */
+    font-size: 16px;             /* taille du texte */
+    margin: 0;                   /* enlever les marges */
+    letter-spacing: 1px;         /* petit espacement des lettres */
+}
+.section-image {
+  background-size: cover;   
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100%;
+}
+.container{
+  padding-top: 20px;
+}
+		
